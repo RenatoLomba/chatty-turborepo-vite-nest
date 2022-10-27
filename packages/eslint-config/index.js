@@ -3,6 +3,11 @@ module.exports = {
   plugins: [
     'eslint-plugin-import-helpers'
   ],
+  settings: {
+    next: {
+      rootDir: ["apps/*/", "packages/*/"],
+    },
+  },
   rules: {
     "no-useless-constructor": "off",
     '@typescript-eslint/naming-convention': [
