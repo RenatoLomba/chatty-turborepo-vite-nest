@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "dev": "npx turbo dev --parallel",
-    "build": "npx turbo build lint"
+    "build": "npx turbo build"
   },
   "devDependencies": {
     "turbo": "^1.6.1"
