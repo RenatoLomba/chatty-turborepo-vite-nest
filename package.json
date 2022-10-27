@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npx turbo dev --parallel",
+    "build": "npx turbo build lint"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.1"
+  }
+}
